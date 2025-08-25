@@ -8,6 +8,8 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.png'],
+      injectRegister: 'auto',
+      selfDestroying: true,
       manifest: {
         name: 'C&S IDASA',
         short_name: 'C&S IDASA',
